@@ -2,7 +2,6 @@
   "name": "frientor-client-nhom5",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hidang.github.io/frientor-nhom5",
   "dependencies": {
     "@craco/craco": "^6.1.1",
     "@testing-library/jest-dom": "^5.11.9",
