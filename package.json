@@ -1,5 +1,5 @@
 {
-  "name": "frientor-client",
+  "name": "frientor-client-nhom5",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,7 +24,9 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test"
+    "test": "craco test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
